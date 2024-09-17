@@ -1,5 +1,5 @@
-# Use an invalid base image
-FROM node:invalid-version
+# Use an ARM-based Node.js image
+FROM arm64v8/node:14
 
 # Set the working directory
 WORKDIR /usr/src/app
