@@ -1,5 +1,4 @@
-# Use an x86-64 compatible Node.js image
-FROM arm64v8/node:14
+FROM node:14
 
 # Rest of the Dockerfile remains the same
 WORKDIR /usr/src/app
